@@ -1,0 +1,48 @@
+#hide{
+    display: none;
+}
+.hc{
+    margin-top: 0;
+}
+.cbuttons{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+.cbuttons button{
+    border: 2px solid rgb(255, 136, 175);
+    margin: 10px 0px;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: large;
+    font-weight: 600;
+    color: #99DDFF;
+    background-color: transparent;
+}
+.active{
+    background-color: #b44656 !important;
+}
+.intern , .course , .nptel , .achieve{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin: 44px;
+}
+.intern img , .course img , .nptel img, .achieve img{
+    width: 360px;
+    height: 280px;
+}
+.intern p , .course p , .nptel p , .achieve p{
+    color:skyblue;
+    text-align: center;
+    font-size: larger;
+    font-weight: 600;   
+}
+.intern p span , .course p span , .nptel p span , .achieve p span{
+    color: rgb(255, 136, 175);
+    font-weight: bold;
+}
+.intern a , .course a , .nptel a , .achieve a{
+    text-decoration: none;
+}

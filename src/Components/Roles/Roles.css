@@ -1,0 +1,32 @@
+#roles{
+    background-color: #071f30;
+}
+#roles h1{
+    text-align: center;
+    color: #99DDFF;
+    margin-top: 0;
+    padding-top: 20px;
+}
+.cards{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 40px 0px;
+}
+.card{
+    color: rgb(196, 151, 174);
+    border: 2px groove rgb(10, 139, 161);
+    /* padding: 50px; */
+    margin: 10px;
+    font-size: larger;
+    font-weight: bolder;
+    text-align: center;
+    border-radius: 10px;
+}
+.card img{
+    width: 280px;
+    height: 159px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}

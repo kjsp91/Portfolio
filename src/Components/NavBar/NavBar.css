@@ -1,0 +1,34 @@
+html{
+    scroll-behavior: smooth;
+}
+nav{
+    background-color: #071f30;
+    color: #99DDFF;  /*#DEB992 #1BA098*/
+    /* position: fixed; */
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav ul{
+    list-style-type: none;
+    padding: 20px 40px;
+    margin: 0px;
+    display: flex;
+    gap: 40px;
+}
+
+nav ul li{
+    font-size: large;
+    font-weight: bold;
+    cursor: pointer;
+    
+}
+nav ul li a{
+    text-decoration: none;
+    color: #99DDFF;
+    transition: color 0.2s;
+}
+nav ul li a:hover{ 
+    color: rgb(255, 136, 175);
+}

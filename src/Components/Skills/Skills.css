@@ -1,0 +1,52 @@
+.hskills{
+    text-align: center;
+    color: #99DDFF;
+    font-size: xx-large;
+    margin-top: 0px;
+    padding-top: 20px;
+}
+.skillset{
+    color: #99DDFF;
+}
+.skillset ul{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+
+}
+.skillset ul li{
+    list-style-type: none;
+
+}
+.skillset ul li button{
+    border: 2px solid rgb(255, 136, 175);
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: large;
+    font-weight: 600;
+    color: #99DDFF;
+    background-color: transparent;
+}
+.skill{
+    display: inline-block;
+    border: 2px solid rgb(255, 136, 175);
+    border-right-width: 40px;
+    
+    width: 400px;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 20px;
+}
+.skill p{
+    color: antiquewhite;
+    font-size: large;
+    font-weight: bolder;
+    margin: 0;
+}
+.set1{
+    margin: 10px 100px;
+}
+.active{
+    background-color: #b44656 !important;
+}

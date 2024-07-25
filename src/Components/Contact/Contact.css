@@ -1,0 +1,71 @@
+#contact{
+    background-color: #071f30;
+}
+#contact h1{
+    color: #99DDFF;
+    text-align: center;
+    margin-top: 0;
+    padding: 20px;
+}
+.connect{
+    display: flex;
+    margin: 40px;
+    gap: 40px;
+}
+.cinfo p{
+    width: 550px;
+    color: white;
+    font-size: larger;
+}
+.cinfo a{
+    color: #99DDFF;
+    text-decoration: none;
+    font-size: larger;
+    font-weight: bold;
+    margin: 0px 5px;
+}
+input{
+    padding: 15px;
+    margin: 4px;
+    border-radius: 10px;
+    font-size: larger;
+    width: 450px;
+    background: transparent;
+    border: 2px solid rgb(236, 179, 198);
+    color: white;
+}
+input::placeholder{
+    color: #99DDFF;
+}
+#msge{
+    height: 100px;
+}
+.mb{
+    padding: 10px;
+    width: 120px;
+    border: 2px solid lightblue;
+    background-color: transparent;
+    border-radius: 10px;
+    margin: 20px;
+    position: relative;
+    left: 150px;
+} 
+.mb a{
+    text-decoration: none;
+    font-size: large;
+    font-weight: bold;
+    color:  rgb(200, 82, 105);
+}
+.mb:hover{
+    background-color: lightblue;
+    color: rgb(254, 29, 77);
+} 
+.resume{
+    padding: 10px;
+    font-size: larger;
+    font-weight: bold;
+    margin: 40px 20px;
+    position: relative;
+    left: 180px;
+
+}
