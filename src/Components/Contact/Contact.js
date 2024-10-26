@@ -29,7 +29,7 @@ export default function Contact(){
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<FontAwesomeIcon icon={faLinkedin} size="2xl" style={{color: "#ffffff",}} /> <a href="https://www.linkedin.com/in/jahnavi-sai-priya-kalyanam/">LinkedIn</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <FontAwesomeIcon icon={faEnvelope} size="2xl" style={{color: "#ffffff",}}/> <a href="mailto:kjahnavisaipriya@gmail.com">E-Mail</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <FontAwesomeIcon icon={faGithub} size="2xl" style={{color: "#ffffff",}}/> <a href="https://github.com/kjsp91">GitHub</a> <br />
-            <a id='resume' href="https://drive.google.com/file/d/1Mcu1IVdrkPgJR6wbbOWyt9u8fWr7LwWA/view?usp=sharing" target="_blank" rel='noreferrer'><button className='resume'>Resume</button></a>
+            <a id='resume' href="https://drive.google.com/file/d/1AFp5u_yA3WYztauQTDtSzJILONpvjo21/view?usp=sharing" target="_blank" rel='noreferrer'><button className='resume'>Resume</button></a>
             
         </div>
         <div className="cform">

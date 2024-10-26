@@ -15,7 +15,7 @@ export default function Hero() {
         <p>Hello, I'm</p> <br />
         <h2>Jahnavi Sai Priya Kalyanam</h2> <br />
         <p>And I'm a <p>{type}</p><Cursor cursorBlinking = {false} cursorStyle="|" /></p> <br />
-        <a href="https://drive.google.com/file/d/1Mcu1IVdrkPgJR6wbbOWyt9u8fWr7LwWA/view?usp=sharing" target="_blank" rel='noreferrer'><button className="hres">Resume</button></a>
+        <a href="https://drive.google.com/file/d/1AFp5u_yA3WYztauQTDtSzJILONpvjo21/view?usp=sharing" target="_blank" rel='noreferrer'><button className="hres">Resume</button></a>
       </div>
       <div className="introimge">
         <img
