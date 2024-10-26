@@ -4,7 +4,7 @@ import About from './About/About';
 import Skills from './Skills/Skills';
 import Roles from './Roles/Roles';
 import Projects from './Projects/Projects';
-import Conatact from './Contact/Contact';
+import Contact from './Contact/Contact';
 import CopyRight from './CopyRight';
 export default function FullComp(){
     return <>
@@ -14,7 +14,7 @@ export default function FullComp(){
       <Skills/>
       <Roles/>
       <Projects/>
-      <Conatact/>
+      <Contact/>
       <CopyRight/>
     </>
 }

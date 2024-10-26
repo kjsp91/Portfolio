@@ -49,23 +49,31 @@ input::placeholder{
     margin: 20px;
     position: relative;
     left: 150px;
-} 
-.mb a{
     text-decoration: none;
     font-size: large;
     font-weight: bold;
     color:  rgb(200, 82, 105);
-}
+    cursor: pointer;
+} 
+
 .mb:hover{
     background-color: lightblue;
     color: rgb(254, 29, 77);
 } 
 .resume{
-    padding: 10px;
-    font-size: larger;
+    padding: 10px 20px;
+    font-size: 20px;
     font-weight: bold;
     margin: 40px 20px;
     position: relative;
     left: 180px;
-
+    cursor: pointer;
+    border-radius: 6px;
+    background-color: #de225e;
+    border: 2px solid #de225e;
+    color: #ffffff;
+}
+#resume{
+    font-size: large;
+    cursor: pointer;
 }

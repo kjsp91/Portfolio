@@ -4,6 +4,19 @@ export default function Experience(){
     <h1 className='expr'>Experience</h1>
     <div className="exp">
         <div className="ecard">
+            <img id='sp' src="assets/sepnoty.png" alt="Sepnoty Logo" />
+            <div>
+                <h2>Backend Developer</h2>
+                <p>Remote | Sep 2024 - Nov 2024</p>
+                <ul>
+                    <li>Developed core backend features for the project "Tepnoty" using Node.js and MongoDB</li>
+                    <li>Developed Status feature with real-time updates in which user can post their status as we post in WhatsApp.</li>
+                    <li>Created a search functionality, improving accessibility and user experience across the platform.</li>
+                    <li>Built content posting through super admin panel for efficient management of company profile updates.</li>
+                </ul>
+            </div>
+        </div>
+        <div className="ecard">
             <img id='bi' src="assets/BI logo.png" alt="Bharat Intern Logo" />
             <div>
                 <h2>Full Stack Web Developer</h2>
@@ -55,6 +68,7 @@ export default function Experience(){
                 </ul>
             </div>
         </div>
+        <center><h3 style={{color:"rgb(249 180 202)"}}>To view certificates, please select the 'Certifications' tab in the navigation bar or <a href='/certificates' style={{color: "#99DDFF"}}>Click Here.</a></h3></center>
     </div>
     </>
 }

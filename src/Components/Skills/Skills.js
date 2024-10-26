@@ -103,6 +103,7 @@
 import './Skills.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faPython } from '@fortawesome/free-brands-svg-icons'
+import { faC } from '@fortawesome/free-solid-svg-icons'
 import { faDatabase } from '@fortawesome/free-solid-svg-icons'
 import { faNodeJs } from '@fortawesome/free-brands-svg-icons'
 import { faCode } from '@fortawesome/free-solid-svg-icons'
@@ -160,6 +161,9 @@ export default function Skills() {
                         </div>
                         <div className="skill">
                             <p><FontAwesomeIcon icon={faCrown} beat size="2xl" style={{ color: "#fee480" }} /> &nbsp;&nbsp;&nbsp;&nbsp;DSA using Java</p>
+                        </div>
+                        <div className="skill">
+                            <p><FontAwesomeIcon icon={faC} flip size="2xl" style={{ color: "#74C0FC" }} /> &nbsp;&nbsp;&nbsp;&nbsp;C</p>
                         </div>
                     </div>
                 )}

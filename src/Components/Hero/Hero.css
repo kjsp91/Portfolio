@@ -27,6 +27,22 @@
     height:400px;
     margin: 40px 20px 40px 0px;
 }
+.hres{
+    margin: 12px 0px 0px 22px;
+    padding: 12px;
+    width: 120px;
+    cursor: pointer;
+    border: 2px solid #f28dbf;
+    /* background-color: rgb(165, 49, 66); */
+    background-color: transparent;
+    border-radius: 10px;
+    color: #99DDFF;
+    font-size: larger;
+    font-weight: bold;
+}
+.hres:hover{
+    background-color: #d8648f;
+}
 hr{
     margin: 0;
 }

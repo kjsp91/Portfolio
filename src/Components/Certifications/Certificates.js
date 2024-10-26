@@ -11,7 +11,7 @@ export default function Certificates(){
     <h1 className='hc'>My Certificates</h1>
     <div className="cbuttons">
         <button onClick={()=>{setIhide('');setChide('hide');setNhide('hide');setAhide('hide')}} className={ihide==='' && 'active'}>Internships</button>
-        <button onClick={()=>{setIhide('hide');setChide('');setNhide('hide');setAhide('hide')}} className={chide==='' && 'active'}>Courses</button>
+        <button onClick={()=>{setIhide('hide');setChide('');setNhide('hide');setAhide('hide')}} className={chide==='' && 'active'}>Certifications</button>
         <button onClick={()=>{setIhide('hide');setChide('hide');setNhide('');setAhide('hide')}} className={nhide==='' && 'active'}>NPTEL</button>
         <button onClick={()=>{setIhide('hide');setChide('hide');setNhide('hide');setAhide('')}} className={ahide==='' && 'active'}>Achievements</button>
     </div>
@@ -43,27 +43,35 @@ export default function Certificates(){
     </div>
     <div className="course" id={chide}>
         <div>
-        <a href="https://drive.google.com/file/d/1gkc3iR5BuMYheZXWAk6O96BmdBKOdzQ0/view?usp=drive_link" target='blank'><img src="/assets/uweb.png" alt="Bharat Intern Fs" />
+        <a href="https://drive.google.com/file/d/1gkc3iR5BuMYheZXWAk6O96BmdBKOdzQ0/view?usp=drive_link" target='blank'><img src="/assets/uweb.png" alt="Udemy FS" />
         <p>Full Stack Web Development - <span>Udemy</span></p></a>
         </div>
         <div>
-        <a href="https://drive.google.com/file/d/1v2uF58IXleNUUOmfDQlySkBX01yrAhLQ/view?usp=drive_link" target='blank'><img src="/assets/ujs.png" alt="Bharat Intern Fs" />
-        <p>Java Script for React JS - <span>Udemy</span></p></a>
-        </div>
-        <div>
-        <a href="https://drive.google.com/file/d/1zN2w-exDdhYeV5OiHn7oZwzWgtMhbo64/view?usp=drive_link" target='blank'><img src="/assets/ibmml.png" alt="Bharat Intern Fs" />
+        <a href="https://drive.google.com/file/d/1zN2w-exDdhYeV5OiHn7oZwzWgtMhbo64/view?usp=drive_link" target='blank'><img src="/assets/ibmml.png" alt="IBM ML" />
         <p>Machine Learning With Python - <span>IBM</span></p></a>
         </div>
         <div>
-        <a href="https://drive.google.com/file/d/1xtmBEFcqanGkHXeE6G34L7s94Y0cuUlb/view?usp=drive_link" target='blank'><img src="/assets/ibmds.png" alt="Bharat Intern Fs" />
+        <a href="https://drive.google.com/file/d/1NmCNQ3UkJH0Cn8z5IJ0JqvIwN7yYiMg-/view?usp=sharing" target='blank'><img src="/assets/ibmdsp.png" alt="IBM DSP" />
+        <p>Data Science Practitioner - <span>IBM</span></p></a>
+        </div>
+        <div>
+        <a href="https://drive.google.com/file/d/1v2uF58IXleNUUOmfDQlySkBX01yrAhLQ/view?usp=drive_link" target='blank'><img src="/assets/ujs.png" alt="Udemy JS" />
+        <p>Java Script for React JS - <span>Udemy</span></p></a>
+        </div>
+        <div>
+        <a href="https://drive.google.com/file/d/1J3ZHHtmldpuhdCwPxYIANe2um1CKZ4u6/view?usp=sharing" target='blank'><img src="/assets/amazon.jpg" alt="AWS" />
+        <p>AWS Workshop - <span>APSSDC</span></p></a>
+        </div>
+        <div>
+        <a href="https://drive.google.com/file/d/1xtmBEFcqanGkHXeE6G34L7s94Y0cuUlb/view?usp=drive_link" target='blank'><img src="/assets/ibmds.png" alt="IBM DS" />
         <p>Data Science & ML Capstone - <span>IBM</span></p></a>
         </div>
         <div>
-        <a href="https://drive.google.com/file/d/1KoU9tyMm73Nh5l6whiIyV3RqK1rbaRVu/view?usp=drive_link" target='blank'><img src="/assets/design.png" alt="Bharat Intern Fs" />
+        <a href="https://drive.google.com/file/d/1KoU9tyMm73Nh5l6whiIyV3RqK1rbaRVu/view?usp=drive_link" target='blank'><img src="/assets/design.png" alt="IBM Design" />
         <p>Enterprise Design Thinking - <span>IBM</span></p></a>
         </div>
         <div>
-        <a href="https://drive.google.com/file/d/1dcAh_IMBi8p8EbZeX7Hn-fKyDN8YC3vu/view?usp=drive_link" target='blank'><img src="/assets/excelr.png" alt="Bharat Intern Fs" />
+        <a href="https://drive.google.com/file/d/1dcAh_IMBi8p8EbZeX7Hn-fKyDN8YC3vu/view?usp=drive_link" target='blank'><img src="/assets/excelr.png" alt="ExcelR" />
         <p>Foundations Of Full Stack - <span>ExcelR</span></p></a>
         </div>
     </div>
@@ -82,6 +90,10 @@ export default function Certificates(){
         </div>
     </div>
     <div className="achieve" id={ahide}>
+        <div>
+            <a href="https://drive.google.com/file/d/1ItMCtiy7wivYdnsSBf52V1yqIjZUUS5A/view?usp=sharing" target='blank'><img src="assets/ppt1st.png" alt="PPT 1st prize in NEC" />
+            <p>1st Prize in PPT - <span>NEC</span></p></a>
+        </div>
         <div>
             <a href="https://drive.google.com/file/d/1dm7Eu76CSiKLWbqtdZBy8G_c5sZ4EsVD/view?usp=drive_link" target='blank'><img src="/assets/necppt.png" alt="PPT 2nd prize in NEC" />
             <p>2nd Prize in PPT - <span>NEC</span></p></a>

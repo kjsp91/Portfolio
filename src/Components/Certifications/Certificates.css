@@ -46,3 +46,6 @@
 .intern a , .course a , .nptel a , .achieve a{
     text-decoration: none;
 }
+a:hover img{
+    opacity: 0.6;
+}
